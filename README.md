@@ -2,7 +2,7 @@
 
 > **Premium Intercity Travel, Designed for India**
 
-[Live showcase](https://timusksharma.github.io/Rovia/) · Frontend-only portfolio experience
+[Live showcase](https://rovia-gold.vercel.app/) · Frontend-only portfolio experience
 
 ## Run the showcase
 
@@ -12,8 +12,7 @@ npm run dev
 ```
 
 Open `http://localhost:3000`. Use `npm run typecheck` and `npm run build`
-before publishing. Pushes to `main` deploy the static export to GitHub Pages
-through `.github/workflows/deploy.yml`.
+before publishing. The production showcase is deployed with Vercel.
 
 The demo stores booking progress only in browser `sessionStorage`. Payments,
 tickets, schedules, maps, and availability are simulated; no personal or
