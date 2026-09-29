@@ -2,6 +2,39 @@
 
 > **Premium Intercity Travel, Designed for India**
 
+[Live showcase](https://timusksharma.github.io/Rovia/) · Frontend-only portfolio experience
+
+## Run the showcase
+
+```bash
+npm install
+npm run dev
+```
+
+Open `http://localhost:3000`. Use `npm run typecheck` and `npm run build`
+before publishing. Pushes to `main` deploy the static export to GitHub Pages
+through `.github/workflows/deploy.yml`.
+
+The demo stores booking progress only in browser `sessionStorage`. Payments,
+tickets, schedules, maps, and availability are simulated; no personal or
+financial data is sent to a server.
+
+### Implemented routes
+
+| Route | Experience |
+| --- | --- |
+| `/` | Cinematic home, search, services, destinations, reviews |
+| `/search` | Local filtering, sorting, and list/map results |
+| `/trip/demo` | Journey details and boarding/drop selection |
+| `/select-seat` | Seat picker, vehicle state, and add-ons |
+| `/checkout` | Validated traveller form and simulated payment |
+| `/booking-confirmed` | Printable digital ticket |
+| `/services`, `/destinations`, `/reviews` | Editorial discovery pages |
+
+The original hero image is AI-generated specifically for Rovia and lives at
+`public/images/rovia-hero.png`. The WayGO references informed only the broad
+editorial mood and composition; the Rovia interface and identity are original.
+
 Rovia is a **frontend-only, high-fidelity portfolio project** for a
 modern Indian intercity mobility platform. It simulates a complete
 travel booking experience for **Intercity Buses, Private Cabs, Tempo
