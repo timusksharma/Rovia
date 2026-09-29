@@ -62,4 +62,4 @@ Checked items are implemented and verified in the current repository. Unchecked 
 ## Deployment
 
 - [x] Keep the project compatible with the connected Vercel repository.
-- [ ] Verify the new production deployment after this redesign is committed and pushed.
+- [x] Verify the new production deployment after this redesign is committed and pushed.
