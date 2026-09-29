@@ -1,0 +1,1 @@
+import {vehicles} from "../../lib/data";import {FleetDetail} from "./view";export function generateStaticParams(){return vehicles.map(x=>({id:x.id}))}export default async function Page({params}:{params:Promise<{id:string}>}){return <FleetDetail id={(await params).id}/>}

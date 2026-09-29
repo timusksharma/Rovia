@@ -1,0 +1,1 @@
+import {shipments} from "../../lib/data";import {OrderDetail} from "./view";export function generateStaticParams(){return [...shipments.map(x=>({id:x.id})),...Array.from({length:12},(_,i)=>({id:`RVL-DEMO-${i+1}`}))]}export default async function Page({params}:{params:Promise<{id:string}>}){return <OrderDetail id={(await params).id}/>}

@@ -1,0 +1,1 @@
+import {drivers} from "../../lib/data";import {DriverDetail} from "./view";export function generateStaticParams(){return drivers.map(x=>({id:x.id}))}export default async function Page({params}:{params:Promise<{id:string}>}){return <DriverDetail id={(await params).id}/>}
