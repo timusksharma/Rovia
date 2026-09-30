@@ -1,0 +1,8 @@
+{
+  "name": "Rovia",
+  "description": "Rovia Logistics — Operations Control Tower for modern supply chains across India.",
+  "requestFramePermissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
